@@ -1,0 +1,119 @@
+:root{
+    --primari-header-color:#303030;
+    --second-header-color: #fff;
+    --primari-link-color: #ffffff;
+    --accent-color: #FF6C00;
+}
+body{
+    font-family: 'Open Sans' sans-serif; 
+    
+}
+.btn{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.09em;
+    font-family: inherit;
+    color: var(--second-header-color);
+}
+
+/* header */
+.header{
+    background-color: gray;
+}
+.header-link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.1em;
+    color: var(--primari-link-color);
+}
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
+.header-tel{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.1em;
+    color: var(--primari-link-color);
+}
+.header-btn{
+
+}
+.header-btn:hover, 
+.header-btn:focus{
+    background-color: var(--accent-color);
+}
+.hero{
+ background-color: var(--primari-header-color);
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    color: rgba(157, 164, 189, 0.6);
+}
+.title{
+    font-family: 'Raleway';
+font-size: 72px;
+line-height: calc(85 / 72);
+letter-spacing: 0.05em;
+color: var(--second-header-color);
+}
+.hero-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+
+    color: #9DA4BD;
+}
+/* --------- about----------- */
+.about {
+}
+.list-about {
+}
+.list {
+}
+.about-items {
+}
+.about-pre-title {
+    font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: var(--primari-header-color);
+}
+.about-title {
+font-weight: 700;
+font-size: 42px;
+line-height:calc(49 / 42);
+letter-spacing: 0.05em;
+
+color: #303030;
+}
+.about-after-title {
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-text {
+    font-size: 14px;
+    line-height: calc(26 / 14);
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-btn {
+    font-style: inherit ;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(16 / 12);
+    letter-spacing: 0.09em;
+    color: #303030;
+}
